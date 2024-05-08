@@ -101,7 +101,11 @@ async def ForceSub(bot: Client, update: Message, file_id: str = False, mode="che
         buttons = [
             [
             InlineKeyboardButton("⛩️ ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ ⛩️", url=f'https://t.me/+QRm4rOXLxDAzNTk1')
+            ]
+            [
             InlineKeyboardButton("💲 ᴛᴀᴘsᴡᴀᴘ 💲", url=f'https://t.me/tapswap_mirror_bot?start=r_6012920664')          
+            ]
+            [
             InlineKeyboardButton("⛩️ ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ ⛩️", url=invite_link)
             ],
            
